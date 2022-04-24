@@ -41,9 +41,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.container-fluid{
-  overflow: hidden;
-}
-</style>
