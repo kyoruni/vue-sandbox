@@ -43,9 +43,6 @@ export default {
 </script>
 
 <style scoped>
-#app {
-  background: pink;
-}
 .container-fluid{
   overflow: hidden;
 }

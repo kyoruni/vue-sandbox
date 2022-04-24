@@ -1,6 +1,5 @@
 <template>
   <div class="right">
-    right
     <click-event v-if="showClickEvent"/>
   </div>
 </template>
@@ -22,9 +21,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.right {
-  background: lime;
-}
-</style>
