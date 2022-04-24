@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ClickEvent from '@/components/pages/ClickEvent'
+import ClickEvent from '@/components/pages/ClickEvent/ClickEvent'
 
 export default {
   props: [
