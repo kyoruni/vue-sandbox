@@ -1,11 +1,14 @@
 [
   {
-    "title": "test1"
+    "title": "ほげ",
+    "componentName": "Hoge"
   },
   {
-    "title": "test2"
+    "title": "ふが",
+    "componentName": "Fuga"
   },
   {
-    "title": "test3"
+    "title": "ぴよ",
+    "componentName": "Piyo"
   }
 ]

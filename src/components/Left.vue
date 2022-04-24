@@ -1,7 +1,11 @@
 <template>
   <div class="left">
     <b-list-group>
-      <b-list-group-item button v-for="menuItem in menuItems" :key="menuItem.title">
+      <b-list-group-item
+        button
+        v-for="menuItem in menuItems"
+        :key="menuItem.title"
+        @click="menuClick(menuItem.componentName)">
         {{ menuItem.title }}
       </b-list-group-item>
       <b-list-group-item href="#some-link">Awesome link</b-list-group-item>
@@ -18,7 +22,12 @@ import menuItems from '@/assets/menu-items.json'
 export default {
   data () {
     return {
-      menuItems
+      menuItems,
+    }
+  },
+  methods: {
+    menuClick (componentName) {
+      this.$emit('changeMenu', componentName)
     }
   },
 }
