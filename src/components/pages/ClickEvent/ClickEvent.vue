@@ -3,8 +3,8 @@
     <h2>クリックイベント</h2>
     <h3>残りHP：{{ hp }} / {{ maxHp }}</h3>
     <b-alert show variant="info" v-if="showAlertInfo">{{ message }}</b-alert>
-    <b-alert show variant="danger" v-if="showAlertDanger">{{ message }}</b-alert>
-    <b-alert show variant="success" v-if="showAlertSuccess">{{ message }}</b-alert>
+    <b-alert show variant="danger" v-else-if="showAlertDanger">{{ message }}</b-alert>
+    <b-alert show variant="success" v-else-if="showAlertSuccess">{{ message }}</b-alert>
     <b-button variant="danger" @click="clickDamage()" :disabled="isDisabledDamageButton">ダメージ</b-button>
     <b-button variant="primary" @click="clickRecovery()" :disabled="isDisabledRecoveryButton">かいふく</b-button>
     <b-button variant="secondary" @click="clickReset()">リセット</b-button>
