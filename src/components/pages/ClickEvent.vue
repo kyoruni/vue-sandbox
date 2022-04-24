@@ -1,7 +1,7 @@
 <template>
   <div class="click-event p-2">
     <h2>click event</h2>
-    <h3>残りHP：{{ hp }}</h3>
+    <h3>残りHP：{{ hp }} / {{ this.maxHp }}</h3>
     <b-alert show variant="info" v-if="showAlertInfo">{{ message }}</b-alert>
     <b-alert show variant="danger" v-if="showAlertDanger">{{ message }}</b-alert>
     <b-alert show variant="success" v-if="showAlertSuccess">{{ message }}</b-alert>
