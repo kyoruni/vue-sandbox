@@ -2,6 +2,8 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
+    <button class="btn btn-info">bootstrap test</button>
+    <b-icon-exclamation-triangle-fill></b-icon-exclamation-triangle-fill>
   </div>
 </template>
 
